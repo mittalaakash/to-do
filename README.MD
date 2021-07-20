@@ -1,2 +1,11 @@
-'# to-do' 
-application to track your To-Do in an effective way and to delete tasks that you've completed 
+# Todo App
+simple to use to-do app created with html css js
+
+
+
+# Published
+[Website](https://basictoodoo.netlify.app/)
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
