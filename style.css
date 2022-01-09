@@ -107,6 +107,10 @@ body{
     background-color: #2980b9;
     border-radius: 10px;
 }
+#container .controls #edit{
+    background-color: #5d46df;
+    border-radius: 10px;
+}
 #container .mycheck{
     opacity: 1;
     border-radius: 10px;

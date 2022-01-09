@@ -75,7 +75,7 @@ function editItem() {
     li=ul.children;
     for (let index = 0; index < li.length; index++) {
        while (li[index]&&li[index].children[0].checked) {
-            console.dir(li[index])
+            console.log(li[index])
           
         }      
     }  
