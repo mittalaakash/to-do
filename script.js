@@ -76,9 +76,9 @@ function editItem(e) {
     var newTask= prompt('add task');
     for (let index = 0; index < li.length; index++) {
        if (li[index]&&li[index].children[0].checked) {
-        console.log(li[index].label)
-            li[index].label=newTask;
-            console.log(li[index].label)
+        console.log(li[index])
+        console.dir(li[index])
+           
         }      
     }  
 }
