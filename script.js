@@ -71,12 +71,13 @@ function removeItem() {
     }  
 }
 
-function editItem() {
+function editItem(e) {
     li=ul.children;
+    var newTask= prompt('add task');
     for (let index = 0; index < li.length; index++) {
        while (li[index]&&li[index].children[0].checked) {
-            console.log(li[index])
-          
+            console.log(newTask);
+            
         }      
     }  
 }
