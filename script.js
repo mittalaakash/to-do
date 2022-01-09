@@ -9,6 +9,9 @@ addButton.addEventListener('click',addItem)
 var removeButton = document.getElementById('remove');
 removeButton.addEventListener('click',removeItem)
 
+var editButton = document.getElementById('edit');
+removeButton.addEventListener('click',editItem)
+
 var resetButtomon = document.getElementById('reset');
 resetButtomon.addEventListener('click',resetlist)
 
@@ -68,3 +71,12 @@ function removeItem() {
     }  
 }
 
+function editItem() {
+    li=ul.children;
+    for (let index = 0; index < li.length; index++) {
+       while (li[index]&&li[index].children[0].checked) {
+            console.dir(li[index])
+          
+        }      
+    }  
+}
